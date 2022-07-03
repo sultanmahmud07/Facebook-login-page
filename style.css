@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  font-family: 'Roboto', sans-serif;
+}
+.container{
+  width: 1400px;
+  margin: auto;
+}
+
+/*===========================================================
+           All header section css code hear.
+===========================================================*/
+
+header#header_sec {
+    margin: 0px;
+    padding: 0px;
+    background-: 4C66A3;
+    background: #4C66A3;
+}
+
+.nav_wrapper {
+    overflow: hidden;
+}
+
+.left_s {
+    width: 820px;
+    float: left;
+    /* height: 67px; */
+}
+
+.right_s {
+    width: 580px;
+    float: right;
+}
+
+.left_s h2 {
+    font-size: 50px;
+    margin: 25px 0px;
+    color: white;
+}
+.info_box {
+  width: 231px;
+  float: left;
+}
+
+form {}
+
+.info_box p {
+  color: white;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 0px;
+  margin-top: 19px;
+}
+
+.info_box input {
+  width: 200px;
+  padding: 7px 5px;
+  outline: none;
+  margin-bottom: 9px;
+}
+.info_box input :hover{
+  border: none;
+}
+
+button {
+  width: 69px;
+  /* padding: 10px 0px; */
+  padding: 6px 0px;
+  color: white;
+  background: #282880;
+  font-weight: 600;
+  margin-top: 45px;
+  border: none;
+  font-size: 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.info_box a {
+  /* padding-top: 26px; */
+  text-decoration: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.info_box a:hover {
+  color: re;
+  border-bottom: 1px solid white;
+  
+}
+
+button:hover {
+  background-color: blue;
+}
+
+/*===========================================================
+           All hero section css code hear.
+===========================================================*/
+section#login_page {
+  background: #F5F5F5;
+}
+
+.log_wrapper {
+  overflow: hidden;
+}
+
+.h_left_side {
+  width: 820px;
+  float: left;
+  overflow: hidden;
+}
+
+.h_right_side {
+  width: 580px;
+  float: right;
+  overflow: hidden;
+}
+
+.headline h2 {
+  color: #28285acf;
+  font-size: 30px;
+  margin-top: 42px;
+}
+
+.headline {
+  width: 685px;
+}
+section#login_page {
+  background: #F5F5F5;
+}
+
+.log_wrapper {
+  overflow: hidden;
+}
+
+.h_left_side {
+  width: 820px;
+  float: left;
+  overflow: hidden;
+}
+
+.h_right_side {
+  width: 580px;
+  float: right;
+  overflow: hidden;
+}
+
+.headline h2 {
+  color: #28285acf;
+  font-size: 30px;
+  margin-top: 42px;
+}
+
+.headline {
+  width: 685px;
+}
+
+.top_info h1 {
+  font-size: 40px;
+  color: #000000bf;
+  margin: 10px 0px;
+}
+
+.top_info p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.top_info input {
+  width: 562px;
+  height: 30px;
+  padding: 5px;
+  border: 2px solid #aaaaaaa1;
+  margin-bottom: 17px;
+  border-radius: 5px;
+  font-size: 20px;
+  outline: none;
+  padding-left: 7px;
+}
+input.name {
+  width: 262px;
+  float: left;
+  margin-right: 21px;
+  outline: none;
+}
+
+input.name:last-child {
+  margin-right: 0px;
+  width: 30px;
+}
+
+input.name {}
+
+input.name2 {
+    width: 262px;
+    float: left;
+    /* margin-left: 10px; */
+    outline: none;
+}
+
+.bottom_info h3 {
+    font-size: 20px;
+    color: #2f2d2deb;
+    margin-bottom: 17px;
+}
+
+.sel_b_wrapper {
+    overflow: hidden;
+}
+
+.select_buttom {
+    width: 255px;
+    float: left;
+}
+
+select#S_but {
+    width: 73px;
+    height: 33px;
+    border: 2px solid #747474d9;
+    border-radius: 3px;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 9px;
+}
+
+.sec_info {
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+    color: #5454de;
+    line-height: 17px;
+}
+
+input[type="radio"] {
+  width: 18px;
+  /* font-size: 27px; */
+  padding-right: 20px;
+}
+
+.r_but p {
+  font-size: 21px;
+  display: inline-block;
+}
+
+.r_but {
+  margin: 10px 0px;
+}
+
+.d_list {
+  width: 543px;
+  font-size: 15px;
+}
+
+button#button_d {
+  width: 262px;
+  color: white;
+  background: #28a828;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 21px 0px;
+  transition: 0.5s;
+}
+
+button#button_d a {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  /* padding: 6px; */
+}
+
+button#button_d:hover {
+  background-color: #008000;
+}
+.d_list a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.headline i {
+  font-size: 164px;
+  color: #808080a8;
+  margin-top: 41px;
+  margin-left: 259px;
+}
